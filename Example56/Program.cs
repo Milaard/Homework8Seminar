@@ -7,7 +7,7 @@
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 
 int rows = SetNumber("m");
-int column = SetNumber("n");
+int column = SetNumber("n>m");
 int[,] matrix = new int[rows, column];
 matrix = GetRandomMatrix(rows, column);
 PrintMatrix(matrix);
